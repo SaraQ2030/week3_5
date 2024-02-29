@@ -32,6 +32,7 @@ public class Main {
 
                 Vehicle c=new Car(vehicleModel,vehicleTimeRent);
                 rentedVehicles.add(c);
+                c.displyDetails();
                     break;
                 case 2:
 
@@ -43,6 +44,7 @@ public class Main {
 
                     Vehicle b=new Bike(vehicleModel,vehicleTimeRent);
                     rentedVehicles.add(b);
+                    b.displyDetails();
 
                     break;
                 case 3:
@@ -54,6 +56,7 @@ public class Main {
 
                     Vehicle t=new Truck(vehicleModel,vehicleTimeRent);
                     rentedVehicles.add(t);
+                    t.displyDetails();
 
                     break;
                 case 4:
